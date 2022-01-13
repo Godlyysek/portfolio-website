@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    color: white;
+    box-sizing:border-box
+}
+
+.bgimg {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: brightness(25%);
+    position: relative;
+}
+
+.black-foreground {
+    background-color:black;
+    opacity: 80%;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-color: #1c1c1c;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    padding: 20px;
+    top: 0px;
+    opacity: 90%;
+}
+
+.navlink {
+    font-size: 28px;
+    padding-left: 5em;
+    padding-right: 5em;
+    text-decoration: none;
+    font-weight: 300;
+    padding-top: 1em;
+    padding-bottom: 0.7em;
+}
+
+.img1offset {
+    top: 75px;
+}
+
+.filler {
+    width: 100%;
+    height: 75px;
+    background-color: #1c1c1c;
+    position: absolute;
+    top: 0px
+}
+
+.introduction {
+    font-weight: 100;
+    font-size: 60px;
+}
+
+a:hover {
+    background-color: #333333;
+}
+
+.container-introduction {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 300px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    position: absolute;
+    top: 1400px;
+    font-weight: 200;
+}
+
+p {
+    font-size: 35px;
+    padding: 0.6em;
+    margin-left: 80px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.aboutme {
+    left: 100px;
+    font-weight: 200;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 8px;
+    margin-right: 50%;
+    margin-left: 80px;
+    padding: 0.6em;
+    
+}
+
+.under {
+    border-bottom: solid white 2px;
+    margin-top: 70px;
+}
+
+.skills {
+    margin-left: 140px;
+}
+
+.container {
+    width: 100%;
+    background-color: rgb(209, 208, 208);
+}
+
+h3 {
+    margin-top: 25px;
+    font-weight: 200;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.skill {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    padding-right: 1em;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.html {width: 60%; background-color: #f44336;}
+.css {width: 50%; background-color: #2196F3;}
+.py {width: 80%; background-color: #04AA6D;}
+.js {width: 40%; background-color: #f8bc17;}
+
+.title-h2 {
+    margin-left: 110px;
+}
+
+.contact {
+    position: absolute;
+    width: 100%;
+}
+
+.contact-icons {
+    width: 240px;
+    margin-left: 200px;
+    height: auto;
+}
+
+.dl-div {
+    margin: 110px;
+    font-weight: 200;
+    font-size: 30px;
+   
+}
+
+.dl {
+    border: solid white 1px;
+    border-radius: 40px;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.second-row {
+    top: 2750px;
+}
+
+.git-icon {
+    filter: brightness(80%);
+    margin-left: 200px;
+}
+
+.no-hover a:hover {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+h4 {
+    margin-left: 150px;
+    margin-top: 100px;
+    font-size: 100px;
+    font-weight: 200;
+    padding: 0;
+    letter-spacing: 6px;
+}
+
+.footer {
+    background-color:rgb(20, 20, 20);
+    width: 100%;
+    height: 300px;
+    padding-left: 500px;
+    padding-top: 40px;  
+}
+
+.footer p {
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: rgb(175, 31, 55);
+
+}
+
+.email {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    padding: 15px;
+}
