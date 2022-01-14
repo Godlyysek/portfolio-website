@@ -121,16 +121,12 @@ h2 {
     margin-left: 140px;
 }
 
-.container {
-    width: 100%;
-    background-color: rgb(209, 208, 208);
-}
-
 h3 {
     margin-top: 25px;
     font-weight: 200;
     font-size: 30px;
     margin-bottom: 5px;
+    padding-left: 20px;
 }
 
 .skill {
@@ -138,15 +134,15 @@ h3 {
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
-    padding-right: 1em;
+    padding-right: 1.4em;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
-.html {width: 60%; background-color: #f44336;}
-.css {width: 50%; background-color: #2196F3;}
-.py {width: 80%; background-color: #04AA6D;}
-.js {width: 40%; background-color: #f8bc17;}
+.html {width: 60%; background-color:rgb(200, 47, 73); border-radius: 40px;}
+.css {width: 50%; background-color:rgb(200, 47, 73); border-radius: 40px;}
+.py {width: 80%; background-color:rgb(200, 47, 73); border-radius: 40px;}
+.js {width: 40%; background-color:rgb(200, 47, 73); border-radius: 40px;}
 
 .title-h2 {
     margin-left: 110px;
